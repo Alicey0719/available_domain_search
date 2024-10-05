@@ -9,7 +9,7 @@ Please try to avoid excessive access.
 ## Usage
 ```
 pip install --no-cache-dir -r requirements.txt
-python3 available_domain_search_async.py > output.txt
+python3 available_domain_search.py > output.txt
 cat output1.txt | grep  -v 'error' | cat
 ```
 
